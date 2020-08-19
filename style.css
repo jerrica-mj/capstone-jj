@@ -20,9 +20,12 @@ body {
 /*"Background" Color Middle Bar*/
 header, section, footer, #navbar {
   background-color: #F5F3EB;
+  /* opacity: 0.9; */
   margin: 0px 12vw;
   align: center;
 }
+
+
 
 /*Header Styling*/
 header img {
@@ -34,8 +37,8 @@ header img {
 #navbar {
   overflow: hidden;
   background-color: white;
-  /* background-image: url(images/website-menu-back2); */
-  color: darkolivegreen;
+  /* opacity: 1; */
+  color: #465D52;
   /* margin: auto; */
   /* width: 50%; */
 }
@@ -48,7 +51,7 @@ header img {
   text-align: center;
   text-decoration: none;
   font-size: 17px;
-  padding: 14px 6.5vw;
+  padding: 1vw 6.5vw;
 }
 
 #navbar a:hover {

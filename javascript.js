@@ -1,6 +1,6 @@
+//Javascript for the Website Interactivity
 
-
-//Navigation Bar Sticky
+//Navigation Bar Sticky Action
   // When the user scrolls the page, execute myFunction
   window.onscroll = function() {myFunction()};
 
