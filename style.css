@@ -99,7 +99,10 @@ h1 {
   font-size: 36px
 }
 
-/*Table Styling*/
+/*Paragraph Styling*/
+p{
+  line-height: 1;
+}
 
 
 /*Footer Styling*/
