@@ -94,10 +94,11 @@ h1, h2, h3 {
   color: #415A4D;
   font-family: "Kalam", cursive, helvetica;
   text-align: center;
+  line-height: 1;
   }
 
 h1 {
-  font-size: 36px
+  font-size: 36px;
   }
 
 h2 {
@@ -107,12 +108,36 @@ h2 {
 h3 {
   text-align: left;
   font-size: 22px;
+  margin-top: 50px;
   }
 
 
 /*Paragraph Styling*/
 p{
   line-height: 1;
+  }
+
+/*Topics Images Styling*/
+.topics {
+  column-count: 3;
+  margin: auto;
+  text-align: center;
+  }
+
+.topics img {
+  border-radius: 100%;
+  border: none;
+  width: 20vw;
+  margin: auto;
+  }
+
+.topics figure {
+  margin: auto;
+}
+
+figcaption {
+  padding: 2px;
+  font-weight: bold;
   }
 
 
@@ -139,6 +164,10 @@ a #totop {
   text-align: center;
   padding: 15px;
   }
+
+#linktotop {
+  margin: 20px;
+}
 
 #linktotop a {
   text-decoration: none;
