@@ -118,13 +118,13 @@ p{
   }
 
 
-/*Content Division Styling*/
+/*Content Class Division Styling*/
 .content div {
   margin: 0 50px;
 }
 
 
-/*Topics Images Styling*/
+/*Topics Class Styling*/
 .topics {
   column-count: 3;
   margin: auto;
