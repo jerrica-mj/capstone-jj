@@ -117,6 +117,13 @@ p{
   line-height: 1;
   }
 
+
+/*Content Division Styling*/
+.content div {
+  margin: 0 50px;
+}
+
+
 /*Topics Images Styling*/
 .topics {
   column-count: 3;
