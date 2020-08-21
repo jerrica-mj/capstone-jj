@@ -4,7 +4,7 @@
 * {
   font-size: 100%;
   box-sizing: border-box;
-}
+  }
 
 
 /*Body Styling*/
@@ -17,13 +17,13 @@ body {
   margin: auto;
   width: 76vw;
   font-family: verdana, trebuchet, arial;
-}
+  }
 
 
 /*"Background" Color Middle Bar*/
 header, section, footer, #navbar {
   background-color: white;
-}
+  }
 
 
 
@@ -34,7 +34,7 @@ header img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+  }
 
 
 /*Navigation Bar Styling*/
@@ -42,7 +42,7 @@ header img {
   overflow: hidden;
   background-color: #F5F3EB;
   color: #465D52;
-}
+  }
 
 /*Navigation Bar Table*/
 #navbartable {
@@ -52,7 +52,7 @@ header img {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
+  }
 
 /*Navigation Bar Links*/
 #navbar a {
@@ -68,14 +68,14 @@ header img {
 #navbar a:hover {
   background-color: #698875;
   color: #F5F3EB;
-}
+  }
 
 
 /*Styling for Sticky NavBar Jacascript*/
 /* Page content for sticky navbar*/
 .content {
   padding: 16px;
-}
+  }
 
 /* Sticky Class added to navbar with JS when it reaches its scroll position */
 .sticky {
@@ -94,7 +94,7 @@ h1, h2, h3 {
   color: #415A4D;
   font-family: "Kalam", cursive, helvetica;
   text-align: center;
-}
+  }
 
 h1 {
   font-size: 36px
@@ -102,18 +102,18 @@ h1 {
 
 h2 {
   font-size: 30px;
-}
+  }
 
 h3 {
   text-align: left;
   font-size: 22px;
-}
+  }
 
 
 /*Paragraph Styling*/
 p{
   line-height: 1;
-}
+  }
 
 
 /*Figure Image Styling*/
@@ -122,7 +122,8 @@ figure img{
   border: 2px solid #D1CEC2;
   border-radius: 10%;
   padding: 10px;
-}
+  margin: 20px 0;
+  }
 
 
 /*Scroll to top "button" link*/
@@ -137,18 +138,18 @@ a #totop {
   width: 20vw;
   text-align: center;
   padding: 15px;
-}
+  }
 
 #linktotop a {
   text-decoration: none;
   color: #F5F3EB;
   font-weight: 400;
   font-family: "Kalam", cursive, helvetica;
-}
+  }
 
 #totop:hover {
   background-color: #415A4D;
-}
+  }
 
 
 /*Footer Styling*/
@@ -158,4 +159,4 @@ footer {
   text-align: center;
   padding: 10px;
   font-style: normal;
-}
+  }
