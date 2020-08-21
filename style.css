@@ -38,7 +38,7 @@ header img {
 
 
 /*Navigation Bar Styling*/
-#navbar {
+#navbar, footer {
   overflow: hidden;
   background-color: #F5F3EB;
   color: #465D52;
@@ -122,6 +122,32 @@ figure img{
   border: 2px solid #D1CEC2;
   border-radius: 10%;
   padding: 10px;
+}
+
+
+/*Scroll to top "button" link*/
+a #totop {
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #698875;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 22px;
+  margin: auto;
+  width: 20vw;
+  text-align: center;
+  padding: 15px;
+}
+
+#linktotop a {
+  text-decoration: none;
+  color: #F5F3EB;
+  font-weight: 400;
+  font-family: "Kalam", cursive, helvetica;
+}
+
+#totop:hover {
+  background-color: #415A4D;
 }
 
 
